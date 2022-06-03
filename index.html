@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+    <script src="https://kit.fontawesome.com/68a68eb9b3.js" crossorigin="anonymous"></script>
+    <script src="./fileJS/so.js"></script>
+</head>
+<body>
+    <div class="tong">
+        <div class="header">
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><input class="timkiem" type="text" placeholder="Search"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="">Listgame <img src="./img/pngegg.png" alt="" width="18px"></a><ul class="menu2"></li>
+                        <li>Action Games</li>
+                        <li>Casual Games</li>
+                        <li>Horror Games</li>
+                    </ul>
+                    <li><a href="./login.html"> Sign up</a></li>    
+                    <li><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart</a><ul class="cart"></li>
+                    <li id="cart">
+                        <span id="mycart"></span></li> 
+                    </ul>
+                    </ul>
+            </div>
+        </div>
+
+        <hr class="duongke">
+        <div class="artical">
+            <div class="hinh1">
+          <img id="banner" src="./img/game1.png" width="100%"  alt="lineshow">
+         <input type="button" class="trai" onclick="back()" value="Back">
+         <input type="button" class="phai" onclick="next()" value="Next">  </div>
+            <div class="thongtin">
+            <h1 class="tensp" >Elden Ring</h1>   
+            <h2>THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.</h2>
+            <iframe class="video1" width="460" height="215" src="https://www.youtube.com/embed/qqiC88f9ogU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4 class="ban">Souls-Like</h4>
+            <h4 class="ban">RPG</h4>
+            <h4 class="ban">Action</h4>
+            <h3 class="price3" >Price 80$</h3>
+            <h3 class="addcart"><button class="addcartsp" disabled style="text-decoration: line-through; color: gray;" >Sold out<i class="fa-solid fa-cart-shopping"></i></button></h3>
+        </div>
+        </div>
+       
+        <hr class="duongke">
+        <div class="sanpham1">
+           <div class="sp" >
+            <img class="sp1"  src="./img/game2.jpg" alt="" srcset="">
+            <h3 class="tensp">Monster hunter</h3> 
+            <h3 class="giasp1" value="50" > 50</h3>
+            <button class="addcartsp" onclick="addsp(this);">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+       <div class="sp">
+            <img class="sp1" src="./img/game3.jpg" alt="" srcset="">
+            <h3 class="tensp">Naraka:Blade</h3> 
+            <h3 class="giasp1" value="25"> 25</h3>
+            <button class="addcartsp" onclick="addsp(this)">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        <div class="sp">
+            <img class="sp1" src="./img/game4.jpg" alt="" srcset="">
+            <h3 class="tensp">Cyperpunk</h3> 
+            <h3 class="giasp1" value="48"> 48</h3>
+            <button class="addcartsp" onclick="addsp(this)">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+       <div class="sp">
+            <img class="sp1" src="./img/game5.jpg" alt="" srcset="">
+            <h3 class="tensp">The King Of Fighter</h3> 
+            <h3 class="giasp1" value="20">20</h3>
+            <button class="addcartsp" onclick="addsp(this)">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+     <div class="sp">
+            <img class="sp1" src="./img/game6.jpg" alt="" srcset="">
+            <h3 class="tensp">The Witcher III</h3> 
+            <h3 class="giasp1" value="39">39</h3>
+            <button class="addcartsp" onclick="addsp(this)">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+       <div class="sp">
+            <img class="sp1" src="./img/game7.png" alt="" srcset="">
+            <h3 class="tensp">Resident Evil: Village</h3> 
+            <h3 class="giasp1" value="33">33</h3>
+            <button class="addcartsp" onclick="addsp(this)">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        <div class="sp">
+            <img class="sp1" src="./img/game8.jpg" alt="" srcset="">
+            <h3 class="tensp">Devil May Cry 5</h3> 
+            <h3 class="giasp1" value="48"> 48</h3>
+            <button class="addcartsp" onclick="addsp(this)">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+         <div class="sp">
+            <img class="sp1" src="./img/game9.jpg" alt="" srcset="">
+            <h3 class="tensp">Fifa 22</h3> 
+            <h3 class="giasp1" value="80"> 80</h3>
+            <button class="addcartsp" onclick="addsp(this)">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="lienlac">
+                <h3 class="ll1">Contact</h3>
+                <span class="ll2">
+               <a href=""> <i class="fa-brands fa-facebook"></i>Facebook</a>
+               <a href=""> <i class="fa-brands fa-instagram"></i>Instagram</a> 
+               <a href=""><i class="fa-brands fa-twitter"></i>Twitter</a> 
+            </span>
+            </div>
+            <div class="hotro1">
+                <h3 class="ht2">Support</h3>
+                <i class="fa-solid fa-envelope"></i>  Email:luonglkvn100@gmail.com<br>
+                My ASM HTML:http://ps25319asm.freevnn.com/
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
